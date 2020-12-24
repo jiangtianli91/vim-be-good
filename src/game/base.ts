@@ -49,14 +49,21 @@ export const extraWords = [
 ];
 
 export const extraSentences = [
+    "def _grad_input_padding(grad_output, input_size, stride, padding, kernel_size, dilation=None):",
+    "min_sizes = [dim_size(d) for d in range(k)]",
     "One is the best Prime Number",
     "Brandon is the best One",
     "I Twitch when I think about the Discord",
-    "My dog is also my dawg",
-    "The internet is an amazing place full of interesting facts",
-    "Did you know the internet crosses continental boundaries using a wire?!",
+    "In particular, PEOPLE who are used to SVN or P4 who want to throw away uncommitted changes to a file will often reach for revert before being told that they actually want reset.",
+    "My dog is ALSO my dawg",
+    "def __init__(self, d_model: int = 512, nhead: int = 8, num_encoder_layers: int = 6",
+    "num_decoder_layers: int = 6, dim_feedforward: int = 2048, dropout: float = 0.1,",
+    "activation: str = 'relu', custom_encoder: Optional[Any] = None, custom_decoder: Optional[Any] = None) -> None:",
+    "super(Transformer, self).__init__()",
+    "The internet is AN AMAZING PLACE FULL OF INTERESTING facts",
+    "Did you know the INTERNET crosses continental boundaries using a wire?!",
     "I am out of interesting facts to type here",
-    "Others should contribute more sentences to be used in the game",
+    "Others should contribute more SENTENCES to be used in the game",
 ];
 
 export function getRandomWord(): string {
